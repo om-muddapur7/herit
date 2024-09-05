@@ -1,0 +1,484 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('somanath.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2{
+    position: relative;
+    color: orange;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .navigation a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: bold;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .navigation a:hover{
+    background: #f28500;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.content .info h2{
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    line-height: 60px;
+}
+
+.content .info h2 span{
+    color: orange;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.content .info p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #f1f1f1;
+}
+
+.content .info-btn{
+    color: #fff;
+    background: #f28500;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.content .info-btn:hover{
+    background: white;
+    color: black;
+}
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.media-icons a{
+    position: relative;
+    color: #f1f1f1;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.5);
+}
+
+.head{
+    margin: 0;
+    /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('bk3.jpg'); */
+    background: linear-gradient(#ffdf00, orange);
+    color: #d84315; /* Deep orange */
+    padding-top: 40px;
+    text-align: left;
+    padding-left: 55px;
+    font-weight: 750;
+    text-decoration: underline;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(orange, #ffdf00);
+    /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('bk3.jpg'); */
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    height: 570px;
+    margin: 24px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.kedar {
+    height: 410px;
+    width: 320px;
+    border-radius: 3px;
+}
+
+.intro {
+    height: 170px;
+    width: 320px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('bk3.jpg');
+    color: #fff; 
+    bottom: -740px;
+    transition: 0.5s ;
+    margin-top: -10px;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff; /* Dark gray */
+}
+
+.sep {
+    width: 20%;
+    height: 6px;
+    background-color: #fff; /* Dark gray */
+    margin-bottom: 16px;
+    margin-left: 120px;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    color: #fff; /* Dark gray */
+}
+
+h3{
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff; /* Dark gray */
+}
+
+.additional-info {
+    border-top: 1px solid #bbb;
+    margin-top: 12px;
+    padding: 28px;
+    padding-bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.additional-info .info {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info i {
+    color: navy; /* Soft orange */
+    font-size: 1.1em;
+    margin-right: 4px;
+}
+
+.info span {
+    color: #fff; /* Dark gray */
+    font-weight: bolder;
+}
+
+.action {
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: transparent;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    outline: none;
+    cursor: pointer;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: background-color 0.4s, top 0.4s;
+    opacity: 0;
+}
+
+.action:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card:hover {
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('Somanath-event1.jpeg');
+}
+
+.card:hover .intro{
+    height: 400px;
+    bottom: -740px;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('bk3.jpg');
+}
+
+.card:hover .additional-info{
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover .kedar{
+    visibility: hidden;
+}
+
+.card:hover .action{
+    top: -100px;
+    opacity: 1;
+}
+
+.events{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    background: linear-gradient(#ffdf00, orange);
+    /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('bk3.jpg'); */
+    text-align: center;
+    padding-top: -50px;
+}
+
+footer h1{
+    border: 2px solid #ecad4e; /* Orange border */
+    border-radius: 2%;
+    padding: 10px 20px;
+}
+
+footer h1{
+    color: #d84315; /* Deep orange */
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.describe{
+    text-align: left;
+    font-size: 18px;
+    padding: 20px;
+    padding-top: 10px;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('bk3.jpg');
+    color: #fff;
+}
+
+.describe p{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 25px;
+    padding: 2px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.describe span{
+    font-weight: bolder;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.describe h2{
+    font-size: 40px;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gallery {
+    padding: 10px;
+    background: linear-gradient(orange, yellow);
+    /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('bk3.jpg'); */
+}
+
+.gallery h2{
+    padding: 15px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.gallery-container{
+    columns : 3 250px;
+    gap : 10px;
+}
+
+.gallery .item {
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('bk3.jpg'); */
+}
+
+.gallery .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition-duration: 2ms;
+}
+
+.gallery-container img:hover{
+    transform: translateY(-10px);
+}
+
+.end {
+    background: orange;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: orange;
+    margin: 10px;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.icons a i{
+    font-size: 1em;
+    color: #000;
+    opacity: 0.9;
+}
+
+.icons a:hover{
+    background: orange;
+    transition: 0.5s;
+}
+
+.icons a:hover i{
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footnote p{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    background: rgb(215, 140, 1);
+    color: #fff;
+    margin: 0px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: orange;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(red, orange);
+    border-radius: 5px;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        /* transform: translateX(-100px); */
+        scale: 0.5;
+        /* clip-path: inset(100% 100% 0 0); */
+    }
+    to{
+        opacity: 1;
+        /* transform: translateX(0px); */
+        scale: 1;
+        /* clip-path: inset(0 0 0 0); */
+    }
+}
+
+footer h1, .describe h2, .describe p, .gallery h2, .gallery-container .item{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+} 
+
+@keyframes start {
+    from{
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.a1, .navigation a, .info h2, .info p, .info a, .media-icons a{
+    animation-name: start;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+} 

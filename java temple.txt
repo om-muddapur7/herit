@@ -1,0 +1,107 @@
+document.addEventListener("DOMContentLoaded", function () {
+    var homeLink = document.querySelector("nav ul li:first-child a");
+    var templesLink = document.querySelector("nav ul li:nth-child(2) a");
+    var aboutLink = document.querySelector("nav ul li:nth-child(4) a");
+    var exploreButton = document.querySelector(".content a");
+
+    var card1 = document.querySelector(".cards .c1");
+    var card2 = document.querySelector(".cards.c2");
+    var card3 = document.querySelector(".cards.c3");
+    var card4 = document.querySelector(".cards.c4");
+    var card5 = document.querySelector(".cards.c5");
+    var card6 = document.querySelector(".cards.c6");
+    var card7 = document.querySelector(".cards.c7");
+    var card8 = document.querySelector(".cards.c8");
+    var card9 = document.querySelector(".cards.c9");
+    var card10 = document.querySelector(".cards.c10");
+    var card11 = document.querySelector(".cards.c11");
+    var card12 = document.querySelector(".cards.c12");
+
+    var content2 = document.querySelector(".content2");
+    var temples = document.querySelector(".cards");
+    var about = document.querySelector(".footer");
+
+    var items = document.querySelectorAll('.item'); 
+
+    homeLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        content2.scrollIntoView({ behavior: "smooth" });
+    });
+
+    templesLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        temples.scrollIntoView({ behavior: "smooth" });
+    });
+
+    aboutLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        about.scrollIntoView({ behavior: "smooth" });
+    });
+
+    exploreButton.addEventListener("click", function (event) {
+        event.preventDefault();
+        content2.scrollIntoView({ behavior: "smooth" });
+    });
+
+    card1.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[0]);
+    });
+
+    card2.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[1]);
+    });
+
+    card3.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[2]);
+    });
+
+    card4.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[3]);
+    });
+
+    card5.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[4]);
+    });
+
+    card6.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[5]);
+    });
+
+    card7.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[6]);
+    });
+
+    card8.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[7]);
+    });
+
+    card9.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[8]);
+    });
+
+    card10.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[9]);
+    });
+
+    card11.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[10]);
+    });
+
+    card12.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.querySelector('.list').appendChild(items[11]);
+    });
+
+});
+

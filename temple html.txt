@@ -1,0 +1,303 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temples of India</title>
+
+    <link rel="stylesheet" href="temple_css.css">
+    <script src="temple_script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <video autoplay loop muted play-inline class="back">
+            <source src="v1.mp4">
+        </video>
+
+        <nav>
+            <img src="i17.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">TEMPLES</a></li>
+                <li><a href="#">COMMUNITIES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h1>Temples Of India</h1>
+            <a class="l1" href="#">Explore</a>
+        </div>
+
+    </div>
+
+    <div class="content2">
+        <h2 class="h2">The Purpose of Temples in India</h2>
+
+        <img src="i7.jpg" class="img1">
+
+        <p class="p1">Temples in India serve various purposes, including spiritual, religious, and cultural. They
+            provide shelter, protection, and support for faithful souls. They also serve as platforms for community
+            gatherings, religious rituals, and the exchange of ideas and knowledge among believers. Additionally,
+            temples can serve as places for worship, learning, and religious ceremonies.</p>
+
+
+
+        <p class="p2">Many people are relocating from their hometowns to cities in pursuit of personal and professional
+            growth. Meanwhile, their families back in the villages continue to uphold the spiritual rituals. City
+            dwellers occasionally return to their roots to perform prayers and maintain these traditions. However, as
+            the younger generation takes over, these connections to their ancestral roots gradually fade, impacting
+            their family's spiritual well-being. </p>
+
+    </div>
+
+    <div class="cards">
+
+        <h1 class="h3">Explore the Temples</h1>
+
+        <div class="card c1">
+            <h5>Kedarnath</h5>
+            <p>A Temple from the Northern India</p>
+        </div>
+        <div class="card c2">
+            <h5>Murudeshwar</h5>
+            <p>A Temple from the Southern India</p>
+        </div>
+        <div class="card c3">
+            <h5>Somanath</h5>
+            <p>A Temple from the Western India</p>
+        </div>
+        <div class="card c4">
+            <h5>Jaganath</h5>
+            <p>A Temple from the Eastern India</p>
+        </div>
+        <div class="card c5">
+            <h5>Nageshwar</h5>
+            <p>A Temple from the Eastern India</p>
+        </div>
+        <div class="card c6">
+            <h5>Dwarka</h5>
+            <p>A Temple from the Eastern India</p>
+        </div>
+        <div class="card c7">
+            <h5>Shree Padmanabhaswamy</h5>
+            <p>A Temple from the Southern India</p>
+        </div>
+        <div class="card c8">
+            <h5>Rameshwaram</h5>
+            <p>A Temple from the Southern India</p>
+        </div>
+        <div class="card c9">
+            <h5>Golden Temple</h5>
+            <p>A Temple from the Northern India</p>
+        </div>
+        <div class="card c10">
+            <h5>Badrinath</h5>
+            <p>A Temple from the Northern India</p>
+        </div>
+        <div class="card c11">
+            <h5>Dharmasthala</h5>
+            <p>A Temple from the Southern India</p>
+        </div>
+        <div class="card c12">
+            <h5>Kandariya Mahadev</h5>
+            <p>A Temple from the Southern India</p>
+        </div>
+
+    </div>
+
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="kedarnath.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="murudeshwar.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="somanath.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="jaganath.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="nageshwar.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="dwarka.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="padmanabhaswamy.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="rameshwaram.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="golden2.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="badrinath.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="dharmastala.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="kandriya.jpg">
+                <div class="content">
+                    <div class="author">author</div>
+                    <div class="title">title</div>
+                    <div class="topic">topic</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dolorum alias deserunt libero distinctio, sit dicta facilis, consequatur placeat ipsam quo necessitatibus numquam voluptate autem illo aut officia! Atque?</div>
+                    <div class="buttons">
+                        <button>see more</button>
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/reg/"><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <div class="footnote">
+        <p>Copyright &copy;2024; Designed by <span class="designer"> Om Muddapur </span></p>
+    </div>
+
+</body>
+
+</html>
